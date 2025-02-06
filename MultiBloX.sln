@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiBloX", "MultiBloX\MultiBloX.csproj", "{77457D73-1A7C-4317-BC73-8973D889C77F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B512F1CB-7C20-4454-8140-8CBF8F266216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListAllHandles", "ListAllHandles\ListAllHandles.csproj", "{3E6BC625-800A-4009-A67F-A31C3F213908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewHandle", "NewHandle\NewHandle.csproj", "{9E2A0BBE-0C8F-49C7-8081-89ECB00C75E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77457D73-1A7C-4317-BC73-8973D889C77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77457D73-1A7C-4317-BC73-8973D889C77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77457D73-1A7C-4317-BC73-8973D889C77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77457D73-1A7C-4317-BC73-8973D889C77F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E6BC625-800A-4009-A67F-A31C3F213908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6BC625-800A-4009-A67F-A31C3F213908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6BC625-800A-4009-A67F-A31C3F213908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6BC625-800A-4009-A67F-A31C3F213908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E2A0BBE-0C8F-49C7-8081-89ECB00C75E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2A0BBE-0C8F-49C7-8081-89ECB00C75E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2A0BBE-0C8F-49C7-8081-89ECB00C75E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2A0BBE-0C8F-49C7-8081-89ECB00C75E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E6BC625-800A-4009-A67F-A31C3F213908} = {B512F1CB-7C20-4454-8140-8CBF8F266216}
+		{9E2A0BBE-0C8F-49C7-8081-89ECB00C75E3} = {B512F1CB-7C20-4454-8140-8CBF8F266216}
+	EndGlobalSection
+EndGlobal
